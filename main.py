@@ -95,26 +95,14 @@ class Sundae:
             os.startfile("C:/Users/Notebook/Documents")
             pass
 
-        elif command == "open video":
-            s.speak("Opening video.")
-            os.startfile("C:/Users/63999/Documents/Wondershare/Wondershare Filmora/Output/Iterating_Lights.mp4")
-            time.sleep(10)
-            os.system('TASKKILL /F /IM vlc.exe')
-            pass
-
         elif command == "open genshin":
             s.speak("Opening Genshin Impact.")
             os.startfile("C:/Program Files/Genshin Impact/launcher.exe")
             pass
 
-        elif command == "open barilan":
+        elif command == "open valorant":
             s.speak("Opening Valorant.")
             os.startfile("D:/GAMES/Riot Games/Riot Client/RiotClientServices.exe")
-            pass
-
-        elif command == "open my files":
-            s.speak("Opening your files.")
-            os.startfile("D:/Chan's File/Van Dacy 2.0/media/giphy.gif")
             pass
 
         else:
@@ -222,45 +210,6 @@ class Sundae:
 
             elif command == "introduce yourself":
                 s.speak("I am Sunday. I'm a digital assistant made by Riku.")
-
-            elif "cce faculty" in command:
-                s.speak("Here is the location of CCE faculty.")
-
-            elif command == "gather":
-                s.speak("Opening Gather.")
-                webbrowser.open("https://app.gather.town/app/bfFuGUyeIyHyQDCg/rocphdigitalmarketing")
-
-            elif command == "bitrix":
-                s.speak("Opening bitrix.")
-                webbrowser.open("https://rocph.bitrix24.com/stream/")
-
-            elif command == "time in":
-                s.speak("Opening Time in.")
-                webbrowser.open("https://forms.roc.com.ph/rocphdigitalmarketingservices/form/AttendanceTimeInForm/formperma/NyV75IEFJl7OGkJNBiRykS4BpJEtOCvlLq6rknd4H_s")
-
-            elif command == "time out":
-                s.speak("Opening Time out.")
-                webbrowser.open("https://forms.roc.com.ph/rocphdigitalmarketingservices/form/AttendanceTimeOutForm/formperma/STtW04LEMAZsd9sSRRT1InP9jrXHcq4q8DXu5i49o-E")
-
-            elif command == "daily report":
-                s.speak("Opening daily report.")
-                webbrowser.open("https://forms.roc.com.ph/rocphdigitalmarketingservices/form/2022DailyReport/formperma/eqXU8YCX_q58euFkZolzQUPw9Pgyg6mo7oS0uVtC20w")
-
-            elif command == "client portal":
-                s.speak("Opening client portal.")
-                webbrowser.open("https://app.roc.ph/admin/login.php?redirect=configadmins.php%3Fnocache%3DlZujWY1XUWdWCqkL")
-
-            elif command == "dev portal":
-                s.speak("Opening dev portal.")
-                webbrowser.open("https://dev.roc.com.ph/wp-login.php?redirect_to=https%3A%2F%2Fdev.roc.com.ph%2Fwp-admin%2Findex.php&reauth=1")
-
-            elif command == "cpanel":
-                s.speak("Opening c panel.")
-                webbrowser.open("https://hostname.roc.ph:2083/cpsess5773536068/frontend/paper_lantern/index.html?login=1&post_login=50375937977249&fbclid=IwAR2Qa48tE9JkutNOnakzWLstG6M8s24TGAxqAhJATwLbKDpLpoMnYWdmcAw")
-
-            elif command == "attendance":
-                s.speak("Opening Engineering Attendance")
-                webbrowser.open("https://workdrive.roc.com.ph/sheet/open/68vfo369669f464a44f02ba410f7d86ce7a2e?sheet=Sheet1&range=F104")
 
             elif command == "shutdown the computer":
                 s.speak("The computer will shutdown")
